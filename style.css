@@ -1,13 +1,14 @@
 /*
-Theme Name: Sydney Child
-Theme URI: http://athemes.com/theme/sydney
-Template: sydney
-Author: Ronald Zwiers
-Author URI: http://athemes.com
-Description: Sydney Child theme
-Tags: two-columns,right-sidebar,custom-colors,custom-background,custom-header,custom-menu,featured-images,sticky-post,theme-options,threaded-comments,translation-ready
-Version: 1.31.1471520942
-Updated: 2016-08-18 11:49:02
+Theme Name: Emmet Lite Child
+Theme URI: http://www.getmotopress.com/themes/emmet
+Template: emmet-lite
+Author: MotoPress
+Author URI: http://www.getmotopress.com/
+Description: Clean and responsive WordPress theme with a professional design created for corporate and portfolio websites. Emmet comes packaged with page builder and fully integrated with WordPress Customizer. Theme works perfect with major WordPress plugins like WooCommerce, bbPress, BuddyPress and many others. After installing the theme navigate to Appearance &gt; Theme Wizard.
+Tags: one-column,two-columns,right-sidebar,buddypress,custom-colors,custom-menu,featured-images,full-width-template,post-formats,theme-options,translation-ready
+Version: 1.4.3.1471523999
+Updated: 2016-08-18 12:39:59
+
 */
 /* RESET (do not edit the files below) */
 /*! normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -632,9 +633,6 @@ iframe {
   .kirra-frontend-bar-enabled {
     margin-top: 36px !important;
   }
-  .kirra-frontend-bar-enabled .page-header {
-    top: 36px !important;
-  }
 }
 /* CORE FRAMEWORK STYLING (do not edit the files below) */
 body,
@@ -651,12 +649,6 @@ html {
 }
 body {
   background: #fff;
-  padding-top: 9.6rem;
-}
-@media screen and (max-width: 1023px) {
-  body {
-    padding-top: 4.8rem;
-  }
 }
 .page-content {
   margin-left: -1.2rem;
@@ -2603,7 +2595,6 @@ html .cookie-explanation button.request-cookies:before,
   left: 0;
   height: 9.6rem;
   background: #c2405f;
-  position: fixed;
 }
 .page-header .inner {
   display: -webkit-box;
